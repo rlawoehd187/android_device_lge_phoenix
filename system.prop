@@ -1,0 +1,13 @@
+ro.display.series=LG Q9 One
+ro.product.board=msm8998
+ro.board.platform=msm8998
+ro.build.version.release=11
+ro.build.version.sdk=30
+
+# adb
+ro.adb.secure=0
+ro.secure=0
+ro.allow.mock.location=0
+ro.debuggable=1
+persist.sys.usb.config=mtp,adb
+ro.crypto.type=block
