@@ -14,12 +14,8 @@
 // limitations under the License.
 //
 
-soong_namespace {
-    imports: ["hardware/qcom/bootctrl"],
-}
-
 cc_library {
     name: "bootctrl.msm8998",
     defaults: ["bootctrl_hal_defaults"],
-    static_libs: ["libgptutils.phoenix"],
+    static_libs: ["libgptutils"],
 }
